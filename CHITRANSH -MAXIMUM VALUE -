@@ -1,0 +1,9 @@
+let array = [25,35,95];
+
+let maxnvalue = array[0];
+for (let i = 0; i <= array.length-1; i++) {
+    if(array[i]>maxnvalue){
+        maxnvalue = array[i];
+    }
+}
+console.log(maxnvalue);
