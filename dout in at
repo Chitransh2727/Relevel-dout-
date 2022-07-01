@@ -1,0 +1,16 @@
+# Relevel-dout-
+let array = [12, 25, 65, 95,];
+// array.forEach(function (e) { // e is  here varriable nme 
+//     console.log(e);
+// }
+// )
+// array.pop();
+// console.log(array)
+// console.log(array.pop());
+// let a = [10]
+// let array = a.length 
+// console.log(array)
+let a = array.at(3);
+console.log(a
+
+result is not showing....
