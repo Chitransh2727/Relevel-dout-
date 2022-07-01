@@ -1,0 +1,13 @@
+// maxima and minima value in array 
+let array = [56,59,61]
+let minivalue = array[0]
+for (let i = 0; i < array.length - 1;i++)
+{
+if {array[i]>minivalue}
+{
+minivalue = array[i]
+}
+}
+console.log(minivalue)
+
+result =========> 56
