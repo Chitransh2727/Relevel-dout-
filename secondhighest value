@@ -1,6 +1,69 @@
-# Relevel-dout-
+question - 1
+// first declare the array 
+// than second step is sorted the array 
+//than i  print [1] 
+
+
 let array = [25,36,15]
 let sortedarray = array.sort();
 // return sortedarray[1]
 console.log(sortedarray[1]);
 result..............>25
+......................................................................................
+
+
+
+question 2 :- /**
+ * Q - 2 write a function to
+ * return all the values in array which is divisible by 7
+ // first declare the array 
+ // then we take a varriable  where we want to save our ans
+// than impliment the logic 
+ 
+
+ let newarray = [35, 14, 36, 48, 26]
+let divby7 = []
+for (let i = 0; i <= newarray.length - 1; i++) {
+    if (newarray[i] % 7 == 0) {
+        divby7.push(newarray[i]);
+    }
+
+}
+console.log(divby7);
+.......................................................................................................................
+
+
+/**
+ * Q - 3 write a function to
+ * return all the values in array which is divisible by n
+ 
+ 
+let newarray = [n]
+let divby7 = []
+for (let i = 0; i <= newarray.length - 1; i++) {
+    if (newarray[i] % 6 == 0) {
+        divby7.push(newarray[i]);
+    }
+
+}
+console.log(divby6);
+
+.........................................................................................................................................................
+
+
+question 4 
+write the programm which print the array which is even 
+// declare array 
+// let a varriable where we want to save the ans 
+// than we take for loop and than impliment the logic 
+
+let newarray = [35, 14, 36, 48, 26]
+let divbyEven = []
+for (let i = 0; i <= newarray.length - 1; i++) {
+    if (newarray[i] % 2 == 0) {
+        divbyEven.push(newarray[i]);
+    }
+
+}
+console.log(divbyEven)
+result >>>>>>>>> [14,36,48,26]
