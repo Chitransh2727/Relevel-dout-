@@ -1,0 +1,6 @@
+# Relevel-dout-
+let array = [25,36,15]
+let sortedarray = array.sort();
+// return sortedarray[1]
+console.log(sortedarray[1]);
+result..............>25
