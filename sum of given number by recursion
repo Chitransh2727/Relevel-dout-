@@ -1,0 +1,16 @@
+//find the sum of natural number
+step 1 - create a function 
+step 2 - use the recursion function 
+step 3 - implement the logic 
+
+function sum(n){
+ if(n>0){
+     return n+sum(n-1)
+ }
+ else {
+     return 0;
+ }
+}
+console.log(sum(5));
+
+result:-15
