@@ -1,0 +1,14 @@
+FIRST WE HAVE A CREATE AND ARRAY FOR THIS WE WILL HAVE TO MAKE TWO LOOP 
+FIRST LOOP FOR i and another one for j it is inner loop 
+
+let arr = [2, 6, 4, 0, 8]
+for (i = 0; i < arr.length; i++) {
+    for (j = 0; j < arr.length; j++) {
+        if (arr[j] > arr[j + 1]) {
+            let temp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = temp;
+        }
+    }
+}
+console.log(arr)
